@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Naked twins is the constraint that peers cannot have two numbers when two boxes in a unit can have the same two numbers only. Those two boxes are called naked twins and we can eliminate the shared numbers in naked twins from peers and we can reduce the search space.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Diagonal sudoku is Sudoku, which also has the two main diagonals as unit in addition to rows/cols/squares. We can reduce search space by applying eliminate/only_once/naked_twins to those two diagonal units as well as rows/cols/squares.
 
 ### Install
 
